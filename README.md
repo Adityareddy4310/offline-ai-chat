@@ -17,7 +17,7 @@ Designed for privacy-focused users, secure workplaces, and environments without 
 ## 🎥 **Project Demo**
 
 ```md
-<video src="https://raw.githubusercontent.com/Adityareddy4310/offline-ai-chat/main/demo.mp4" controls width="650"></video>
+<video src="https://raw.githubusercontent.com/Adityareddy4310/offline-ai-chat/main/demo video.mp4" controls width="650"></video>
 ```
 
 ---
