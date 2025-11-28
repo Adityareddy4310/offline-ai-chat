@@ -1,155 +1,105 @@
-# offline-ai-chat
-Native Windows installation guide for Ollama and Open-WebUI: Offline, lightweight AI chat interface without Docker or WSL
-Here is your **complete, polished, professional, engaging, and copy-paste-ready README.md**
-— perfect for your GitHub repository **offline-ai-chat**.
+# 📌 offline-ai-chat
 
-Just copy → paste into your `README.md`.
+A fully offline, self-hosted AI chat system using **Ollama**, **Open WebUI**, and **Llama 3.1**.  
+This project demonstrates how to run a modern LLM completely **locally**, without any cloud or API dependencies — ideal for secure or offline environments.
 
 ---
 
-# 📌 **offline-ai-chat**
+## 🎥 Demo Video
 
-A fully **offline, self-hosted AI chat system** built using **Ollama**, **Open WebUI**, and **Llama 3.1**.
-Designed for privacy-focused users, secure workplaces, and environments without internet access — this project demonstrates how to run a modern LLM completely **locally**, with a smooth web interface and no external dependencies.
+Since GitHub does not support playing MP4 directly inside a README,  
+click the image below to watch the full demo:
 
----
+[![Demo Video](thumbnail.png)](https://raw.githubusercontent.com/Adityareddy4310/offline-ai-chat/main/demo%20video.mp4)
 
-## 🎥 **Project Demo**
-
-```md
-<video src="https://raw.githubusercontent.com/Adityareddy4310/offline-ai-chat/main/demo video.mp4" controls width="650"></video>
-```
+> 🔹 Replace `thumbnail.png` with any screenshot from your demo video.  
+> Upload a PNG/JPG image and rename it to **thumbnail.png**.
 
 ---
 
-## 🚀 **Overview**
+## 🚀 Overview
 
-**offline-ai-chat** gives you a powerful, private AI assistant that runs entirely on your machine:
+**offline-ai-chat** allows you to run Llama models completely offline:
 
-* No API keys
-* No cloud services
-* No data leaving your device
-* Full control over your models and storage
-
-Using **Ollama** as the backend and **Open WebUI** as the frontend, the system provides an intuitive chat interface powered by the **Llama 3.1** model.
-
----
-
-## ✨ **Features**
-
-* 🧠 **Offline LLM Execution** using Ollama
-* 🌐 **Beautiful Chat UI** powered by Open WebUI
-* 🔒 **100% Private & Secure** – works without internet
-* ⚡ **Fast Local Inference** on supported hardware
-* 🔌 **Easy Setup** with simple commands
-* 🖥️ **Cross-Platform**: Windows / Linux / macOS
-* 🧩 **Extendable** to other models (Gemma, Mistral, Phi, etc.)
+- No API keys  
+- No cloud  
+- No data leaving your machine  
+- Fast, private inference  
+- Clean web UI via Open WebUI  
 
 ---
 
-## 🧱 **Tech Stack**
+## ✨ Features
 
-| Tool               | Purpose                                |
-| ------------------ | -------------------------------------- |
-| **Ollama**         | Local backend for running LLMs offline |
-| **Open WebUI**     | Browser-based chat interface           |
-| **Llama 3.1 (8B)** | The model used for this project        |
-| **Docker**         | Runs the Open WebUI container          |
-| **Local Machine**  | No external dependencies               |
-
----
-
-## 🛠️ **Installation & Setup**
-
-### **1️⃣ Install Ollama**
-
-Download and install Ollama:
-
-```sh
-https://ollama.com/download
-```
+- 🧠 Run Llama 3.1 fully offline  
+- 🌐 Chat UI with Open WebUI  
+- 🔒 Privacy-first (no internet required)  
+- ⚡ Fast inference via Ollama backend  
+- 🖥️ Works on Windows / Linux / macOS  
+- 🔌 Simple setup, easy to extend  
 
 ---
 
-### **2️⃣ Pull the Llama 3.1 Model**
+## 🧱 Tech Stack
 
-```sh
+| Tool | Purpose |
+|------|---------|
+| **Ollama** | Local model runtime |
+| **Open WebUI** | Browser-based chat interface |
+| **Docker** | Containerized deployment |
+| **Llama 3.1 (8B)** | Main model used |
+
+---
+
+## 🛠 Installation & Setup
+
+### 1️⃣ Install Ollama  
+Download Ollama from: https://ollama.com/download
+
+### 2️⃣ Pull the model  
+```bash
 ollama pull llama3.1
-```
-
----
-
-### **3️⃣ Run Open WebUI (Docker Recommended)**
-
-```sh
+3️⃣ Run Open WebUI
+bash
+Copy code
 docker run -d \
   -p 3000:8080 \
   -v open-webui:/app \
   --name open-webui \
   ghcr.io/open-webui/open-webui:main
-```
-
----
-
-### **4️⃣ Open the Web Interface**
-
+4️⃣ Open the UI
 Visit:
 
-```
+arduino
+Copy code
 http://localhost:3000
-```
-
-Select your model → Start chatting offline.
-
----
-
-## 📂 **Project Structure**
-
-```
+📂 Project Structure
+bash
+Copy code
 offline-ai-chat/
-├── demo.mp4        # Project demonstration video
-├── README.md       # Project documentation
-└── (additional files in future updates)
-```
+├── demo video.mp4    # Demo video
+├── thumbnail.png      # Thumbnail image used in README
+├── README.md
+🤖 How It Works
+Ollama hosts the model locally
 
----
+Open WebUI connects to Ollama
 
-## 🤖 **How It Works**
+You chat through the browser
 
-1. **Ollama** hosts the Llama model locally
-2. **Open WebUI** connects to Ollama through API
-3. You interact with the UI
-4. All responses are generated on your machine
-5. No data is sent to external servers
+All processing happens on your device
 
-You get complete privacy + great performance.
+📌 Use Cases
+Private AI assistant
 
----
+Offline labs
 
-## 📌 **Use Cases**
+Secure enterprise setups
 
-* Offline AI development
-* Secure enterprise environments
-* Personal AI assistant
-* Research projects
-* Learning how LLMs work behind the scenes
+Machine learning practice
 
----
+Research experiments
 
-## 🚧 **Planned Improvements**
-
-* Add support for multiple models
-* Provide a setup script for automation
-* Include screenshots section
-* Add custom tools/extensions for Open WebUI
-
----
-
-## 🤝 **Contributing**
-
-Contributions are always welcome 😊
-If you’d like to improve the documentation, add features, or optimize performance — feel free to open an issue or pull request.
-
----
-
-
+🤝 Contributing
+Pull requests are welcome!
+Feel free to improve documentation, add features, or optimize the setup.
