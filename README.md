@@ -6,7 +6,6 @@
 
 <video width="800" height="450" controls preload="metadata">
   <source src="https://user-images.githubusercontent.com/12345678/98765432/abc123def456/demo%20video.mp4" type="video/mp4">
-  Your browser doesn't support video. [Download instead](https://github.com/Adityareddy4310/offline-ai-chat/raw/main/demo%20video.mp4).
 </video>
 
 *Watch the full setup & offline chat demo – 100% local!*
