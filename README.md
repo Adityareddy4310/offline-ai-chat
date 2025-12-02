@@ -2,8 +2,14 @@
 
 **Run Llama models 100% offline with a sleek web UI.** No cloud, no Docker bloat, no internet after setup. Perfect for privacy pros, devs, and offline warriors.
 
-[![Demo Video](thumbnail.PNG)](https://github.com/Adityareddy4310/offline-ai-chat/raw/main/demo%20video.mp4)  
-*Click the thumbnail to watch the full setup & chat demo (works offline too!)*
+## 🎥 Demo Video
+
+<video width="800" height="450" controls>
+  <source src="https://user-images.githubusercontent.com/YOUR_USER_ID/YOUR_REPO_ID/FILE_ID/demo%20video.mp4" type="video/mp4">
+  Your browser doesn't support video. [Download instead](https://github.com/Adityareddy4310/offline-ai-chat/raw/main/demo%20video.mp4).
+</video>
+
+*Watch the full setup & offline chat demo – 100% local!*
 
 > 💡 **Quick Win**: Get chatting in 2 mins. Fork this repo, star it ⭐, and share your custom model tweaks!
 
