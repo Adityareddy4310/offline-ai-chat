@@ -127,26 +127,3 @@ offline-ai-chat/
 ````
 
 ---
-
-### How to Upload & Make It Shine (5-Min Quick Guide)
-1. **Repo Setup**:
-   - Go to [github.com/new](https://github.com/new) > Name: `offline-ai-chat` > Description: "Fully offline AI chat with Ollama & Open-WebUI – no Docker needed!" > Public > Create README > Paste the above.
-
-2. **Upload Video**:
-   - In repo: **Add file > Upload files**.
-   - Drag `demo video.mp4` (keep exact name – GitHub handles spaces).
-   - Commit message: "Add demo video".
-   - It auto-hosts at `https://github.com/Adityareddy4310/offline-ai-chat/raw/main/demo%20video.mp4` (update username if needed).
-
-3. **Upload Thumbnail**:
-   - Extract a frame from your video (use free tool like [ezgif.com/video-to-jpg](https://ezgif.com/video-to-jpg) – upload vid, pick frame 1-2, download as PNG).
-   - Name it `thumbnail.png` (or JPG).
-   - Upload to root: **Add file > Upload files** > Drag file > Commit: "Add clickable demo thumbnail".
-   - Resize to ~800x450px for crisp look (optional, via ezgif.com).
-
-4. **Polish & Push**:
-   - Edit README.md: Paste the full content above.
-   - Commit: "Revamp README with interactive demos & tables".
-   - Boom! The thumbnail links to your video – clicks open GitHub's built-in player (full-screen friendly).
-
-This README clocks in at ~10s scan time: Hooks with demo, guides hands-on, tables compare fast, emojis pop without overkill, CTAs spark engagement. It'll pull stars like Open-WebUI's (10k+). Drop the live link – I'll star & comment first! 🚀
