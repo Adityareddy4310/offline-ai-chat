@@ -4,9 +4,7 @@
 
 ## 🎥 Demo Video
 
-<video width="800" height="450" controls preload="metadata">
-  <source src="https://user-images.githubusercontent.com/12345678/98765432/abc123def456/demo%20video.mp4" type="video/mp4">
-</video>
+[![Watch Demo](https://github.com/Adityareddy4310/offline-ai-chat/raw/main/thumbnail.png)](https://user-images.githubusercontent.com/12345678/98765432/11223344/demo%20video.mp4)
 
 *Watch the full setup & offline chat demo – 100% local!*
 
