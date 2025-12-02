@@ -114,5 +114,3 @@ Upload your own demo GIFs/PRs to `/demos/` – let's crowdsource epic examples!
 
 [Ollama Docs](https://ollama.com/docs) | [Open-WebUI Guide](https://docs.openwebui.com) | [Your Feedback Here](https://github.com/Adityareddy4310/offline-ai-chat/issues/new)
 ````
-
----
