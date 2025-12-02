@@ -82,7 +82,7 @@ Compare models like a boss. All pull with `ollama pull [name]` – choose based 
 
 ## 🎮 Hands-On Demos – See It in Action
 
-Beyond the video thumbnail above, here's what you'll build:
+Beyond the video above, here's what you'll build:
 
 - **Basic Chat**: Prompt: "Plan a vegan dinner party for 4 – keep it under $50." → Gets a full menu + shopping list.
 - **Reasoning Test**: "Solve: Bat + ball = $1.10, bat $1 more than ball?" → Step-by-step logic (spoiler: $0.05!).
