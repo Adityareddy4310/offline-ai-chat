@@ -90,21 +90,7 @@ Beyond the video thumbnail above, here's what you'll build:
 
 Upload your own demo GIFs/PRs to `/demos/` – let's crowdsource epic examples!
 
----
 
-## 🧑‍💻 Project Structure (Keep It Tidy)
-```
-offline-ai-chat/
-├── demo video.mp4      # Your full setup walkthrough
-├── thumbnail.png       # Clickable preview (grab a frame from your vid!)
-├── README.md           # This file – your project's front door
-├── setup-notes.md      # Custom tweaks & troubleshooting
-└── .gitignore          # Ignore venv & temp files
-```
-
-> 📂 **Hack It**: Add a `scripts/` folder for auto-launch (e.g., PowerShell one-liner). PRs welcome!
-
----
 
 ## 🚧 Troubleshooting – Common Wins
 - **Models Vanish Offline?** Refresh Settings > Ollama > Test Connection. (GitHub issue #1 vibes – fixed!)
