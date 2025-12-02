@@ -4,7 +4,7 @@
 
 ## 🎥 Demo Video
 
-[![Watch Demo](https://github.com/Adityareddy4310/offline-ai-chat/raw/main/thumbnail.png)](https://user-images.githubusercontent.com/12345678/98765432/11223344/demo%20video.mp4)
+[![Watch Demo](thumbnail.png)](https://github.com/Adityareddy4310/offline-ai-chat/issues/1#issue-3685662494)
 
 *Watch the full setup & offline chat demo – 100% local!*
 
